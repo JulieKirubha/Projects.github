@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+.full-form {
+  width: 100rem;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.personal {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  padding: 3.2rem;
+  text-decoration: dashed;
+}
+
+.detail {
+  font-size: 1.8rem;
+  margin-left: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.first input {
+  padding: 1.6rem;
+  margin-left: 1.2rem;
+}
+
+.first select {
+  padding: 1.6rem;
+  margin-left: 1.2rem;
+}
+
+.second input {
+  padding: 5.2rem;
+  margin-left: 1.2rem;
+}
+
+.btn {
+  padding: 1.2rem;
+  position: absolute;
+  bottom: -60;
+  right: 0;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  box-shadow: 0.5rem 0.5rem 1rem black;
+  transition: all 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgba(0, 0, 0, 0.363);
+  color: aliceblue;
+}
